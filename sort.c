@@ -136,12 +136,12 @@ void display_axis(int tab[J], char *sort){
 				printf(" ");
 			}
 #else
-			// printf("%c", axis[i][j]);
-			if(axis[i][j] == 'o'){
+			printf("%c", axis[i][j]);
+			/*if(axis[i][j] == 'o'){
 				printf("o");
 			} else {
 				printf(" ");
-			}
+			}*/
 #endif
 		}
 		printf("\n");
